@@ -1,0 +1,22 @@
+/Users/dale/Projects/LINQPractice/LINQPractice/obj/Debug/netcoreapp2.0/LINQPractice.csprojAssemblyReference.cache
+/Users/dale/Projects/LINQPractice/LINQPractice/obj/Debug/netcoreapp2.0/LINQPractice.csproj.CoreCompileInputs.cache
+/Users/dale/Projects/LINQPractice/LINQPractice/obj/Debug/netcoreapp2.0/LINQPractice.AssemblyInfoInputs.cache
+/Users/dale/Projects/LINQPractice/LINQPractice/obj/Debug/netcoreapp2.0/LINQPractice.AssemblyInfo.cs
+/Users/dale/Projects/LINQPractice/LINQPractice/bin/Debug/netcoreapp2.0/LINQPractice.deps.json
+/Users/dale/Projects/LINQPractice/LINQPractice/bin/Debug/netcoreapp2.0/LINQPractice.runtimeconfig.json
+/Users/dale/Projects/LINQPractice/LINQPractice/bin/Debug/netcoreapp2.0/LINQPractice.runtimeconfig.dev.json
+/Users/dale/Projects/LINQPractice/LINQPractice/bin/Debug/netcoreapp2.0/LINQPractice.dll
+/Users/dale/Projects/LINQPractice/LINQPractice/bin/Debug/netcoreapp2.0/LINQPractice.pdb
+/Users/dale/Projects/LINQPractice/LINQPractice/obj/Debug/netcoreapp2.0/LINQPractice.dll
+/Users/dale/Projects/LINQPractice/LINQPractice/obj/Debug/netcoreapp2.0/LINQPractice.pdb
+/Users/dale/Projects/Prepared for Course/LINQPractice/LINQPractice/bin/Debug/netcoreapp2.0/LINQPractice.deps.json
+/Users/dale/Projects/Prepared for Course/LINQPractice/LINQPractice/bin/Debug/netcoreapp2.0/LINQPractice.runtimeconfig.json
+/Users/dale/Projects/Prepared for Course/LINQPractice/LINQPractice/bin/Debug/netcoreapp2.0/LINQPractice.runtimeconfig.dev.json
+/Users/dale/Projects/Prepared for Course/LINQPractice/LINQPractice/bin/Debug/netcoreapp2.0/LINQPractice.dll
+/Users/dale/Projects/Prepared for Course/LINQPractice/LINQPractice/bin/Debug/netcoreapp2.0/LINQPractice.pdb
+/Users/dale/Projects/Prepared for Course/LINQPractice/LINQPractice/obj/Debug/netcoreapp2.0/LINQPractice.csprojAssemblyReference.cache
+/Users/dale/Projects/Prepared for Course/LINQPractice/LINQPractice/obj/Debug/netcoreapp2.0/LINQPractice.csproj.CoreCompileInputs.cache
+/Users/dale/Projects/Prepared for Course/LINQPractice/LINQPractice/obj/Debug/netcoreapp2.0/LINQPractice.AssemblyInfoInputs.cache
+/Users/dale/Projects/Prepared for Course/LINQPractice/LINQPractice/obj/Debug/netcoreapp2.0/LINQPractice.AssemblyInfo.cs
+/Users/dale/Projects/Prepared for Course/LINQPractice/LINQPractice/obj/Debug/netcoreapp2.0/LINQPractice.dll
+/Users/dale/Projects/Prepared for Course/LINQPractice/LINQPractice/obj/Debug/netcoreapp2.0/LINQPractice.pdb
