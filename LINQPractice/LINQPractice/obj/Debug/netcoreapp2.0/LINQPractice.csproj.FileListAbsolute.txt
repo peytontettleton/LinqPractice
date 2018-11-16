@@ -20,3 +20,14 @@
 /Users/dale/Projects/Prepared for Course/LINQPractice/LINQPractice/obj/Debug/netcoreapp2.0/LINQPractice.AssemblyInfo.cs
 /Users/dale/Projects/Prepared for Course/LINQPractice/LINQPractice/obj/Debug/netcoreapp2.0/LINQPractice.dll
 /Users/dale/Projects/Prepared for Course/LINQPractice/LINQPractice/obj/Debug/netcoreapp2.0/LINQPractice.pdb
+C:\Users\Admin\Documents\GitHub\LinqPractice\LINQPractice\LINQPractice\bin\Debug\netcoreapp2.0\LINQPractice.deps.json
+C:\Users\Admin\Documents\GitHub\LinqPractice\LINQPractice\LINQPractice\bin\Debug\netcoreapp2.0\LINQPractice.runtimeconfig.json
+C:\Users\Admin\Documents\GitHub\LinqPractice\LINQPractice\LINQPractice\bin\Debug\netcoreapp2.0\LINQPractice.runtimeconfig.dev.json
+C:\Users\Admin\Documents\GitHub\LinqPractice\LINQPractice\LINQPractice\bin\Debug\netcoreapp2.0\LINQPractice.dll
+C:\Users\Admin\Documents\GitHub\LinqPractice\LINQPractice\LINQPractice\bin\Debug\netcoreapp2.0\LINQPractice.pdb
+C:\Users\Admin\Documents\GitHub\LinqPractice\LINQPractice\LINQPractice\obj\Debug\netcoreapp2.0\LINQPractice.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\LinqPractice\LINQPractice\LINQPractice\obj\Debug\netcoreapp2.0\LINQPractice.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\LinqPractice\LINQPractice\LINQPractice\obj\Debug\netcoreapp2.0\LINQPractice.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\LinqPractice\LINQPractice\LINQPractice\obj\Debug\netcoreapp2.0\LINQPractice.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\LinqPractice\LINQPractice\LINQPractice\obj\Debug\netcoreapp2.0\LINQPractice.dll
+C:\Users\Admin\Documents\GitHub\LinqPractice\LINQPractice\LINQPractice\obj\Debug\netcoreapp2.0\LINQPractice.pdb

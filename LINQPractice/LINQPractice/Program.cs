@@ -49,6 +49,8 @@ namespace LINQPractice
             // The following is a functional LINQ statement.
             var productsWithPricesInRange10To20Functional = products.Where(product => (product.Price >= 10.00 & product.Price <= 20.00));
 
+            
+
             Console.WriteLine("Non-functional:");
             foreach (var product in productsWithPricesInRange10To20) {
                 Console.WriteLine(product.ToString());
@@ -62,6 +64,25 @@ namespace LINQPractice
 
             Console.WriteLine("----------------------------------------------------");
 
+            //Ascending Prices
+            Console.WriteLine("List of products with prices in range $10 to $20 ordered by price ascending:");
+            var productsWithPricesInRange10To20OrderedByPriceAsc = from product in products where product.Price >= 10.00 & product.Price <= 20.00 select product;
+            var productsWithPricesInRange10To20OrderedByPriceAscFunctional = products.Where(product => (product.Price >= 10.00 & product.Price <= 20.00)).OrderBy(product => product.Price);
+
+            Console.WriteLine("Non-Functional:");
+            foreach (var product in productsWithPricesInRange10To20OrderedByPriceAsc)
+            {
+                Console.WriteLine(product.ToString());
+            
+            }
+
+            Console.WriteLine("Functional");
+            foreach (var product in productsWithPricesInRange10To20OrderedByPriceAscFunctional)
+            {
+                Console.WriteLine(product.ToString());
+            }
+
+            Console.WriteLine("----------------------------------------------------");
 
             /*-------------------------------------------------------*/
             /*  Practice Item ID: 2                                  */
@@ -419,6 +440,9 @@ namespace LINQPractice
 
             Console.WriteLine("----------------------------------------------------");
             */
+            // Keep the console window open in debug mode. Push key to exit.
+            Console.WriteLine("Press any key to exit.");
+            Console.ReadKey();
         }
     }
 }
