@@ -31,3 +31,14 @@ C:\Users\Admin\Documents\GitHub\LinqPractice\LINQPractice\LINQPractice\obj\Debug
 C:\Users\Admin\Documents\GitHub\LinqPractice\LINQPractice\LINQPractice\obj\Debug\netcoreapp2.0\LINQPractice.AssemblyInfo.cs
 C:\Users\Admin\Documents\GitHub\LinqPractice\LINQPractice\LINQPractice\obj\Debug\netcoreapp2.0\LINQPractice.dll
 C:\Users\Admin\Documents\GitHub\LinqPractice\LINQPractice\LINQPractice\obj\Debug\netcoreapp2.0\LINQPractice.pdb
+C:\Users\sesli\OneDrive\Documents\GitHub\LinqPractice\LINQPractice\LINQPractice\obj\Debug\netcoreapp2.0\LINQPractice.csprojAssemblyReference.cache
+C:\Users\sesli\OneDrive\Documents\GitHub\LinqPractice\LINQPractice\LINQPractice\obj\Debug\netcoreapp2.0\LINQPractice.csproj.CoreCompileInputs.cache
+C:\Users\sesli\OneDrive\Documents\GitHub\LinqPractice\LINQPractice\LINQPractice\obj\Debug\netcoreapp2.0\LINQPractice.AssemblyInfoInputs.cache
+C:\Users\sesli\OneDrive\Documents\GitHub\LinqPractice\LINQPractice\LINQPractice\obj\Debug\netcoreapp2.0\LINQPractice.AssemblyInfo.cs
+C:\Users\sesli\OneDrive\Documents\GitHub\LinqPractice\LINQPractice\LINQPractice\obj\Debug\netcoreapp2.0\LINQPractice.dll
+C:\Users\sesli\OneDrive\Documents\GitHub\LinqPractice\LINQPractice\LINQPractice\obj\Debug\netcoreapp2.0\LINQPractice.pdb
+C:\Users\sesli\OneDrive\Documents\GitHub\LinqPractice\LINQPractice\LINQPractice\bin\Debug\netcoreapp2.0\LINQPractice.deps.json
+C:\Users\sesli\OneDrive\Documents\GitHub\LinqPractice\LINQPractice\LINQPractice\bin\Debug\netcoreapp2.0\LINQPractice.runtimeconfig.json
+C:\Users\sesli\OneDrive\Documents\GitHub\LinqPractice\LINQPractice\LINQPractice\bin\Debug\netcoreapp2.0\LINQPractice.runtimeconfig.dev.json
+C:\Users\sesli\OneDrive\Documents\GitHub\LinqPractice\LINQPractice\LINQPractice\bin\Debug\netcoreapp2.0\LINQPractice.dll
+C:\Users\sesli\OneDrive\Documents\GitHub\LinqPractice\LINQPractice\LINQPractice\bin\Debug\netcoreapp2.0\LINQPractice.pdb

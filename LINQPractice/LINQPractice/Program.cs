@@ -76,13 +76,32 @@ namespace LINQPractice
             
             }
 
-            Console.WriteLine("Functional");
+            Console.WriteLine("Functional:");
             foreach (var product in productsWithPricesInRange10To20OrderedByPriceAscFunctional)
             {
                 Console.WriteLine(product.ToString());
             }
 
             Console.WriteLine("----------------------------------------------------");
+
+            //Alphabetically Ascending
+            Console.WriteLine("List of titles for products with prices in range $10 to $20 ordered by title alphabetically ascending:");
+            var TitlesForProductsWithPricesInRange10to20OrderedByTitleAsc = from product in products where product.Price >= 10.00 & product.Price <= 20.00 orderby product.Title select product.Title;
+            var TitlesForProductsWithPricesInRange10to20OrderedbyTitleAscFunctional = products.Where(product => (product.Price >= 10.00 & product.Price <= 20.00)).OrderBy(product => product.Title).Select(product => product.Title);
+
+            Console.WriteLine("Non-Functional:");
+            foreach (var product in TitlesForProductsWithPricesInRange10to20OrderedByTitleAsc)
+            {
+                Console.WriteLine(product.ToString());
+            }
+
+            Console.WriteLine("Functional:");
+            foreach(var product in TitlesForProductsWithPricesInRange10to20OrderedbyTitleAscFunctional)
+            {
+                Console.WriteLine(product.ToString());
+            }
+            Console.WriteLine("----------------------------------------------------");
+
 
             /*-------------------------------------------------------*/
             /*  Practice Item ID: 2                                  */
