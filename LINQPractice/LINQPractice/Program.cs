@@ -102,6 +102,126 @@ namespace LINQPractice
             }
             Console.WriteLine("----------------------------------------------------");
 
+            //Item ID Descending
+            Console.WriteLine("List of Item ID's for prodcts with prices in range from $10 to $20 ordered by ID Descending");
+            var IDForProductsWithPricesInRange10to20OrderedByIDDesc = from product in products where product.Price >= 10.00 & product.Price <= 20.00 orderby product.ID descending select product.ID;
+            var IDForProductsWithPricesInRange10to20OrderedbyIDDescFunctional = products.Where(product => (product.Price >= 10.00 & product.Price <= 20.00)).OrderByDescending(product => product.ID).Select(product => product.ID);
+
+            Console.WriteLine("Non-Functional:");
+            foreach(var product in IDForProductsWithPricesInRange10to20OrderedByIDDesc)
+            {
+                Console.WriteLine(product.ToString());
+            }
+
+            Console.WriteLine("Functional:");
+            foreach(var product in IDForProductsWithPricesInRange10to20OrderedbyIDDescFunctional)
+            {
+                Console.WriteLine(product.ToString());
+            }
+            Console.WriteLine("----------------------------------------------------");
+
+            //Kitchen Products
+            Console.WriteLine("Kitchen Products:");
+            var KitchenProductsOrderedByCategory = from product in products where product.Category == ProductCategory.Kitchen select product;
+            var KitchenProductsOrderedByCategoryFunctional = products.Where(product => (product.Category == ProductCategory.Kitchen));
+
+            Console.WriteLine("Non-Functional");
+            foreach(var product in KitchenProductsOrderedByCategory)
+            {
+                Console.WriteLine(product.ToString());
+            }
+            Console.WriteLine("Functional");
+            foreach(var product in KitchenProductsOrderedByCategoryFunctional)
+            {
+                Console.WriteLine(product.ToString());
+            }
+            Console.WriteLine("----------------------------------------------------");
+
+            //Descending Kitchen Products
+            Console.WriteLine("Kitchen Products Ordered by Quanitiy in Stock Descending:");
+            var KitchenProductsOrderedByStockQuantity = from product in products where product.Category == ProductCategory.Kitchen orderby product.StockedQuantity descending select product;
+            var KitchenProductsOrderedByStockQuantityFunctional = products.Where(product => (product.Category == ProductCategory.Kitchen)).OrderByDescending(product => product.StockedQuantity);
+
+            Console.WriteLine("Non-Functional");
+            foreach (var product in KitchenProductsOrderedByStockQuantity)
+            {
+                Console.WriteLine(product.ToString());
+            }
+            Console.WriteLine("Functional");
+            foreach (var product in KitchenProductsOrderedByStockQuantityFunctional)
+            {
+                Console.WriteLine(product.ToString());
+            }
+            Console.WriteLine("----------------------------------------------------");
+            
+            //Computer Products Costing More than $100
+            Console.WriteLine("Computer Products Costing More than $100:");
+            var ComputerProducsCostingMoreThan100 = from product in products where product.Category == ProductCategory.Computers & product.Price > 100.00 select product;
+            var ComputerProducsCostingMoreThan100Functional = products.Where(product => (product.Category == ProductCategory.Computers) & (product.Price > 100.00));
+
+            Console.WriteLine("Non-Functional");
+            foreach (var product in ComputerProducsCostingMoreThan100)
+            {
+                Console.WriteLine(product.ToString());
+            }
+            Console.WriteLine("Functional");
+            foreach (var product in ComputerProducsCostingMoreThan100Functional)
+            {
+                Console.WriteLine(product.ToString());
+            }
+            Console.WriteLine("----------------------------------------------------");
+
+            //Specific ID 3152
+            Console.WriteLine("Item ID 3152:");
+            var productTitleWithID3152 = from product in products where product.ID == 3152 select product.Title;
+            var productTitleWithID3152Functional = products.Where(product => product.ID == 3152).Select(product => product.Title);
+
+            Console.WriteLine("Non-Functional");
+            foreach (var product in productTitleWithID3152)
+            {
+                Console.WriteLine(product.ToString());
+            }
+            Console.WriteLine("Functional");
+            foreach (var product in productTitleWithID3152Functional)
+            {
+                Console.WriteLine(product.ToString());
+            }
+            Console.WriteLine("----------------------------------------------------");
+
+            //List of products with titles longer than 50 characters:
+            Console.WriteLine("List of products with titles longer than 50 characters:");
+            var ProductTitleLongerThan50 = from product in products where product.Title.Length > 50 select product;
+            var ProductTitleLongerThan50Functional = products.Where(product => product.Title.Length > 50);
+
+            Console.WriteLine("Non-Functional");
+            foreach (var product in ProductTitleLongerThan50)
+            {
+                Console.WriteLine(product.ToString());
+            }
+            Console.WriteLine("Functional");
+            foreach (var product in ProductTitleLongerThan50Functional)
+            {
+                Console.WriteLine(product.ToString());
+            }
+            Console.WriteLine("----------------------------------------------------");
+
+            //List of Pet products ordered by price from lowest to highest:
+            Console.WriteLine("List of Pet products ordered by price from lowest to highest:");
+            var petProductsLowestToHighestPrice = from product in products where product.Category == ProductCategory.Pet orderby product.Price ascending select product;
+            var petProductsLowestToHighestPriceFunctional = products.Where(product => product.Category == ProductCategory.Pet).OrderBy(product => product.Price);
+
+            Console.WriteLine("Non-Functional");
+            foreach (var product in petProductsLowestToHighestPrice)
+            {
+                Console.WriteLine(product.ToString());
+            }
+            Console.WriteLine("Functional");
+            foreach (var product in petProductsLowestToHighestPriceFunctional)
+            {
+                Console.WriteLine(product.ToString());
+            }
+            Console.WriteLine("----------------------------------------------------");
+
 
             /*-------------------------------------------------------*/
             /*  Practice Item ID: 2                                  */
