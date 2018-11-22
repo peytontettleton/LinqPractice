@@ -239,6 +239,56 @@ namespace LINQPractice
             }
             Console.WriteLine("----------------------------------------------------");
 
+            //List of titles for products with IDs in range 2000 to 2999 ordered by title length:
+            Console.WriteLine("List of titles for products with IDs in range 2000 to 2999 ordered by title length:");
+            var titlesForProductsInIDRange2000To2999OrderedByTitleLength = from product in products where product.ID >= 2000 & product.ID <= 2999 orderby product.Title.Length ascending select product.Title;
+            var titlesForProductsInIDRange2000To2999OrderedByTitleLengthFunctional = products.Where(product => (product.ID >= 2000 & product.ID <= 2999)).OrderBy(product => product.Title.Length).Select(product => product.Title);
+
+            Console.WriteLine("Non-Functional");
+            foreach(var product in titlesForProductsInIDRange2000To2999OrderedByTitleLength)
+            {
+                Console.WriteLine(product.ToString());
+            }
+            Console.WriteLine("Functional");
+            foreach(var product in titlesForProductsInIDRange2000To2999OrderedByTitleLengthFunctional)
+            {
+                Console.WriteLine(product.ToString());
+            }
+            Console.WriteLine("----------------------------------------------------");
+
+            Console.WriteLine("Titles and stocked quantity for products with less than 20 in stock:");
+            var lowStock = from product in products where product.StockedQuantity < 20 select new { Title = product.Title, StockedQuantity = product.StockedQuantity };
+            var lowStockFunctional = products.Where(product => product.StockedQuantity < 20).Select(product => new { Title = product.Title, StockedQuantity = product.StockedQuantity });
+
+            Console.WriteLine("Non-Functional");
+            foreach (var product in lowStock)
+            {
+                Console.WriteLine(product.ToString());
+            }
+            Console.WriteLine("Functional");
+            foreach (var product in lowStockFunctional)
+            {
+                Console.WriteLine(product.ToString());
+            }
+            Console.WriteLine("----------------------------------------------------");
+
+            Console.WriteLine("Titles and stocked quantity for products with less than 20 in stock ordered by stock ascending:");
+            var lowStockOrderedByStockedQuantity = from product in products where product.StockedQuantity < 20 orderby product.StockedQuantity select new { Title = product.Title, StockedQuantity = product.StockedQuantity };
+            var lowStockOrderedByStockedQuantityFunctional = products.Where(product => product.StockedQuantity < 20).OrderBy(product => product.StockedQuantity).Select(product => new { Title = product.Title, StockedQuantity = product.StockedQuantity });
+
+            Console.WriteLine("Non-Functional");
+            foreach (var product in lowStock)
+            {
+                Console.WriteLine(product.ToString());
+            }
+
+            Console.WriteLine("Functional");
+            foreach (var product in lowStockFunctional)
+            {
+                Console.WriteLine(product.ToString());
+            }
+            Console.WriteLine("----------------------------------------------------");
+
 
             /*-------------------------------------------------------*/
             /*  Practice Item ID: 2                                  */
