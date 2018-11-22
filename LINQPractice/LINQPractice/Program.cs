@@ -222,6 +222,23 @@ namespace LINQPractice
             }
             Console.WriteLine("----------------------------------------------------");
 
+            //List of products with IDs in range 2000 to 2999 ordered by ID:
+            Console.WriteLine("List of products with IDs in range 2000 to 2999 ordered by ID:");
+            var productsInIDRange2000To2999OrderedByID = from product in products where product.ID >= 2000 & product.ID <= 2999 select product;
+            var productsInIDRange2000To2999OrderedByIDFunctional = products.Where(product => (product.ID >= 2000 & product.ID <= 2999));
+
+            Console.WriteLine("Non-Functional");
+            foreach (var product in productsInIDRange2000To2999OrderedByID)
+            {
+                Console.WriteLine(product.ToString());
+            }
+            Console.WriteLine("Functional");
+            foreach (var product in productsInIDRange2000To2999OrderedByIDFunctional)
+            {
+                Console.WriteLine(product.ToString());
+            }
+            Console.WriteLine("----------------------------------------------------");
+
 
             /*-------------------------------------------------------*/
             /*  Practice Item ID: 2                                  */
